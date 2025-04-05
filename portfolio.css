@@ -109,6 +109,7 @@ body {
     height: 200px; 
     border-radius: 50%;
     object-fit: cover;
+    border: 5px solid white;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); 
 }
 
@@ -197,32 +198,29 @@ body {
 
 /* Mentor Section */
 .page4 {
-    background-color: #ecf0f1;
+    background-color: #F5F5DC;
 }
 
 .mentor-text h1 {
-    font-size: 2.5rem;
-    color: #2c3e50;
-    margin-bottom: 30px;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: whitesmoke;
+    -webkit-text-stroke: 2.5px black;
+    text-align: center
 }
 
-.scroll-container {
-    overflow-x: auto;
-    white-space: nowrap;
-    padding-bottom: 20px;
-}
 
 .mentor-wrapper {
     display: flex;
     gap: 20px;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .mentor-box {
     background-color: white;
-    display: inline-block;
-    width: 300px;
+    width: 400px;
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -230,20 +228,22 @@ body {
 }
 
 .mentor-image img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    border: 5px solid white;
+    margin-top: -55px;
 }
 
 .mentor-name h2 {
-    font-size: 1.2rem;
-    color: #2980b9;
-    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: #2a4dea;
+    margin-top: -10px;
 }
 
 .mentor-content p {
+    font-weight: bold;
     font-size: 0.95rem;
     line-height: 1.4;
     color: #555;
