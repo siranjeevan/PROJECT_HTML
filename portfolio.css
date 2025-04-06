@@ -11,19 +11,18 @@ body {
 
 /* Navigation */
 .options {
-    background-color: whitesmoke;
-    padding: 15px;
+    padding-bottom: 35px;
     text-align: right;
     position: sticky;
-    top: 30px;
+    top: 0px;
     z-index: 100;
 }
-
 .options a {
     color: black;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
     transition: color 0.3s;
 }
 
@@ -58,19 +57,21 @@ body {
 }
 
 .portfolio-text {
-    font-size: 5rem;
+    font-size: 6rem;
+    color: whitesmoke;
+    -webkit-text-stroke: 2.5px black;
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: -50px;
 }
 
 .MY_name h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 10px 0;
 }
 
 .MY_name h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: black;
 }
 
@@ -81,13 +82,13 @@ body {
 
 .icon a {
     color: black;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0 10px;
     transition: color 0.3s;
 }
 
 .icon a:hover {
-    color: #f4d03f;
+    color: #ea4824;
 }
 
 /* About Section */
@@ -219,7 +220,7 @@ body {
 }
 
 .mentor-box {
-    background-color: white;
+    background-color: #FFDAB9;
     width: 400px;
     border-radius: 15px;
     padding: 20px;
@@ -232,13 +233,14 @@ body {
     height: 80px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid white;
+    border: 5px solid #FFDAB9;
     margin-top: -55px;
 }
 
 .mentor-name h2 {
     font-size: 1.3rem;
-    color: #2a4dea;
+    color: whitesmoke;
+    -webkit-text-stroke: 1.2px black;
     margin-top: -10px;
 }
 
@@ -246,5 +248,5 @@ body {
     font-weight: bold;
     font-size: 0.95rem;
     line-height: 1.4;
-    color: #555;
+    color: black;
 }
